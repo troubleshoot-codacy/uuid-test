@@ -1,0 +1,16 @@
+{
+  "name": "vulnerable-npm-package",
+  "version": "1.0.0",
+  "description": "A sample npm package with intentional vulnerabilities in its dependencies.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "lodash": "4.17.20",
+    "mongoose": "5.10.9"
+  },
+  "author": "Your Name",
+  "license": "ISC"
+}
