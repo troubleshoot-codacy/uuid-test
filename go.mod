@@ -1,6 +1,6 @@
 module example
 
-go 1.21.0
+go 1.23.10
 
 toolchain go1.21.4
 
