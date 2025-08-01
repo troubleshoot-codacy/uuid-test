@@ -1,8 +1,11 @@
-module example
+module another
 
-go 1.23.10
+go 1.22.0
 
 toolchain go1.21.4
 
-require golang.org/x/net v0.33.0
+require (
+   golang.org/x/net v0.34.0
+   gopkg.in/yaml.v2 v2.2.3
+)
 
