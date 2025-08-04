@@ -12,6 +12,8 @@ from django.db.models import ForeignKey, OneToOneField
 
 class LotsOfFieldsModel(models.Model):
 
+  export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPEKEY
+
     bigintegerfield = models.BigIntegerField()
     booleanfield = models.BooleanField(default=True)
     charfield = models.CharField(max_length=40, null=True)
