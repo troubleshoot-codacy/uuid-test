@@ -1,6 +1,6 @@
 module another
 
-go 1.24.5
+go 1.23.8
 
 require (
    golang.org/x/net v0.34.0
